@@ -10,22 +10,22 @@ La salida del programa es una matriz de valores booleanos (0|1) que representan 
 
 Tu programa debe ser llamado main.cpp y debe compilar utilizando el comando g++ en un ambiente linux.
 
-ejemplo de entrada:
-4
-4
-1 0 0 0
-1 1 0 1
-0 1 0 0
-1 1 1 1
+ejemplo de entrada: <br>
+4 <br>
+4 <br>
+1 0 0 0 <br>
+1 1 0 1 <br>
+0 1 0 0 <br>
+1 1 1 1 <br>
 
 
-ejemplo de salida:
-1 0 0 0
-1 1 0 0
-0 1 0 0
-0 1 1 1
+ejemplo de salida: <br>
+1 0 0 0 <br>
+1 1 0 0 <br>
+0 1 0 0 <br>
+0 1 1 1 <br>
 
-1 0 0 0
-1 1 0 0
-0 1 0 0
-0 1 1 1
+1 0 0 0 <br>
+1 1 0 0 <br>
+0 1 0 0 <br>
+0 1 1 1 <br>
