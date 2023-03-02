@@ -16,18 +16,22 @@ using namespace std;
 //  main < case3.txt
 //  main < case4.txt
 
-vector<vector<int>> backTracking () {
-    
+void backTracking (vector<vector<int>> capturado, vector<vector<int>> padre) {
+    stack<pair<int,int>> pila;
+
+    pair<int,int> par (0,0);
+    pila.push(par);
 
 }
 
-vector<vector<int>> ramPoda () {
-
+void ramPoda (vector<vector<int>> capturado, vector<vector<int>> padre) {
+    
 }
 
 int main() {
     vector<vector<int>> capturado;
-    vector<vector<int>> padre;
+    vector<vector<int>> padreP;
+    vector<vector<int>> padreF;
 
     stack<pair<int,int>> pila;
     queue<pair<int,int>> fila;
@@ -46,13 +50,8 @@ int main() {
         capturado.push_back(renglon);
     }
 
-    //Impresion de laberinto (BORRAR)
-    for (int i = 0; i < m; i++) {
-        for (int j = 0; j < n; j++) {
-            cout << capturado[i][j] << ' ';
-        }
-        cout << endl;
-    }
+    backTracking(capturado, padreP);
+    //ramPoda(capturado, padreF);
 
     return 0;
 }
